@@ -3,4 +3,14 @@
   "features": {
     "ghcr.io/devcontainers/features/desktop-lite:1": {}
   },
+  "forwardPorts": [6080, 5901],
+  "portsAttributes": {
+    "6080": {
+      "label": "noVNC"
+    },
+    "5901": {
+      "label": "VNC"
+    }
+  },
+  "runArgs": ["--shm-size=1g"]
 }
