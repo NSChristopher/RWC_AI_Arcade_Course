@@ -1,5 +1,7 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "features": {
     "ghcr.io/devcontainers/features/desktop-lite:1": {}
   },
@@ -12,5 +14,13 @@
       "label": "VNC"
     }
   },
-  "runArgs": ["--shm-size=1g"]
+  "runArgs": ["--shm-size=1g"],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  },
+  "postStartCommand": "vncserver :1 -geometry 1280x800 -depth 24 -SecurityTypes None && websockify --web=/usr/share/novnc/ 6080 localhost:5901 & tail -f /dev/null"
 }
