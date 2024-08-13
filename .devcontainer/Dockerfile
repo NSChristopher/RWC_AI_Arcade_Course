@@ -7,6 +7,3 @@ RUN apt-get update && apt-get install -y \
     novnc \
     websockify \
     swig
-
-# connect to existing venv
-RUN echo "source venv/bin/activate" >> ~/.bashrc
