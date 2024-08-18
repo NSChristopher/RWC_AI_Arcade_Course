@@ -23,5 +23,6 @@
       ]
     }
   },
+  "postCreateCommand": "python -m venv venv && source venv/bin/activate && pip install -r requirements.txt",
   "postStartCommand": "vncserver :1 -geometry 1280x800 -depth 24 -SecurityTypes None && websockify --web=/usr/share/novnc/ 6080 localhost:5901 & tail -f /dev/null"
 }

@@ -1,6 +1,26 @@
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
+from matplotlib.animation import FuncAnimation
+from IPython.display import HTML
+import cv2
+
+def display_video(frames, interval=50, scale=0.5):
+    # Downscale the frames
+    scaled_frames = [cv2.resize(frame, (0, 0), fx=scale, fy=scale) for frame in frames]
+    
+    fig, ax = plt.subplots()
+    ax.axis('off')
+    img = ax.imshow(scaled_frames[0])
+    
+    def update(frame):
+        img.set_array(frame)
+        return [img]
+    
+    ani = FuncAnimation(fig, update, frames=scaled_frames, interval=interval, blit=True)
+    plt.close(fig)  # Prevents the static image from displaying
+    return ani
+
 
 def plot_q_values_grid(q_table, map_size=8):
     q_table_max_values = np.max(q_table, axis=1).reshape(map_size, map_size)
