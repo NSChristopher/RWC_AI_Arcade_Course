@@ -5,6 +5,8 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 
+
+
 > Repo for a course tought to middle and high school students participating in RWC Columbia Aug 2024.
 
 ## Table of Contents
@@ -28,81 +30,35 @@ AI arcade is an intruduction to AI designed to be taught to middle and high scho
 
 ## Features
 
-- ✨ **Feature One:** Briefly explain what it does.
-- 🛠️ **Feature Two:** Another significant feature of the project.
-- 🚀 **Feature Three:** Highlight an additional feature or aspect of the project.
-
+- **Visuals** Utilizes Jupyter notebooks for lessons with an emphasis on visuals.
+- **Easy Setup** Using Codespaces, the repo can be forked and easily opened in a dev container that is mostly pre configured.
+- **Games** Using port forwarding, a remote desktop can be accessed via the browser so the students can test out the gymnasium games by playing them.
+  
 ## Getting Started
 
 ### Prerequisites
 
-List any software, libraries, or dependencies that need to be installed before running the project.
+Github student account or Github pro to access more compute. Alternativly docker and the VS code dev container extension.
 
-\`\`\`bash
-# Example:
-pip install numpy pandas
-\`\`\`
+### Setup
 
-### Installation
-
-Provide a step-by-step series of examples and explanations for how to get a development environment running.
-
-\`\`\`bash
-# Clone the repository
-git clone https://github.com/username/repository.git
-
-# Navigate into the project directory
-cd repository
-
-# Install dependencies
-pip install -r requirements.txt
-\`\`\`
-
-## Usage
-
-Include screenshots or code examples demonstrating typical use cases of the project. Be clear and concise.
-
-\`\`\`python
-# Example usage
-from project import Feature
-
-feature = Feature()
-feature.run()
-\`\`\`
-
-## Architecture
-
-(Optional) Describe the architecture of the project, such as how different components interact. Diagrams can be helpful here.
+Fork the repo and open in Codespaces:
 
 ## Roadmap
 
-Outline the planned future developments for the project.
+Though mostly complete the final two modules need some work.
 
-- [ ] Feature 1: Description
-- [ ] Feature 2: Description
-- [x] Completed Feature
-
-## Contributing
-
-Contributions are welcome! Follow these steps to get started:
-
-1. Fork the repository
-2. Create a new branch (\`git checkout -b feature/YourFeature\`)
-3. Commit your changes (\`git commit -m 'Add some feature'\`)
-4. Push to the branch (\`git push origin feature/YourFeature\`)
-5. Open a Pull Request
-
-## License
-
-Distributed under the MIT License. See \`LICENSE\` for more information.
+- [x] Modules 00 - 03
+- [ ] Module 04 Deep Q Learning
+- [ ] Module 10 Final Project
 
 ## Contact
 
-Noah Christopher - [@yourusername](https://twitter.com/yourusername) - noah.dev@outlook.com
+Noah Christopher - noah.dev@outlook.com
 
-Project Link: [https://github.com/username/repository](https://github.com/NSChristopher/RWC_AI_Arcade)
+Project Link: [https://github.com/NSChristopher/RWC_AI_Arcade](https://github.com/NSChristopher/RWC_AI_Arcade)
 
-## Acknowledgements
+## Libraries
 
-- [Awesome Readme Template](https://github.com/username/awesome-readme-template)
-- [Another Resource](https://link-to-resource.com)
+- [Gymnasium](https://gymnasium.farama.org/)
+- [MiniGrid](https://minigrid.farama.org/)
