@@ -1,5 +1,5 @@
+![image](AI_Arcade_Banner.png)
 
-# [Project Name]
 
 ![License](https://img.shields.io/github/license/NSChristopher/RWC_AI_Arcade)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
@@ -15,14 +15,10 @@
 - [Features](#features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Architecture](#architecture)
+  - [Setup](#setup)
 - [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+- [Libraries](#libraries)
 
 ## About the Project
 
@@ -42,7 +38,15 @@ Github student account or Github pro to access more compute. Alternativly docker
 
 ### Setup
 
-Fork the repo and open in Codespaces:
+- Fork the repo and open in Codespaces
+- Create a virtual invironment and download all the required packages
+  
+  ```python
+  python -m venv venv
+  source venv/bin/activate
+  pip install -r requirements.txt
+  ```
+- Access virtual desktop to play games: open the built in vs code terminal (ctrl + ~) and navigate to the ports tab. Select the globe icon on the port 6080 to open in browser. From the opened browser page you can now connect and view your VM's desktop. 
 
 ## Roadmap
 
