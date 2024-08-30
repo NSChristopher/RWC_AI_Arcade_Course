@@ -1,6 +1,6 @@
 # AI Arcade
 
-> Repo for a course tought to middle and high school students participating in RWC Columbia Aug 2024.
+Repo for a course tought to middle and high school students participating in RWC Columbia Aug 2024.
 
 ![image](AI_Arcade_Banner.png)
 
