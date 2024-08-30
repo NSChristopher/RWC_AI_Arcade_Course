@@ -1,13 +1,12 @@
-![image](AI_Arcade_Banner.png)
+# AI Arcade
 
+> Repo for a course tought to middle and high school students participating in RWC Columbia Aug 2024.
+
+![image](AI_Arcade_Banner.png)
 
 ![License](https://img.shields.io/github/license/NSChristopher/RWC_AI_Arcade)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
-
-
-
-> Repo for a course tought to middle and high school students participating in RWC Columbia Aug 2024.
 
 ## Table of Contents
 
