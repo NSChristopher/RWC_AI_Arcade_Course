@@ -38,7 +38,7 @@ Github student account or Github pro to access more compute. Alternativly docker
 ### Setup
 
 - Fork the repo and open in Codespaces
-- Create a virtual invironment and download all the required packages
+- Create a virtual environment and download all the required packages
   
   ```python
   python -m venv venv
